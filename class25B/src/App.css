@@ -1,0 +1,59 @@
+/* App.css */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+li {
+  background-color: #333333;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+li span.id {
+  font-weight: bold;
+  color: #888888;
+  margin-right: 1rem;
+}
+
+li span.title {
+  font-weight: bold;
+  color: #ffffff;
+  flex: 1; /* Allow title to take more space */
+  margin-right: 1rem;
+}
+
+li span.body {
+  color: #bbbbbb;
+  font-style: italic;
+  flex: 2; /* Allow body to take even more space if needed */
+  text-align: left; /* Align body text to left for readability */
+}
